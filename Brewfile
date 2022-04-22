@@ -15,8 +15,6 @@ brew "fish"
 brew "git"
 # Alternative to top/htop
 brew "glances"
-# Improved top (interactive process viewer)
-brew "htop"
 # Open source relational database management system
 brew "mysql"
 # Port scanning utility for large networks
@@ -39,6 +37,8 @@ brew "watch"
 brew "wget"
 # Dumb downloader that scrapes the web
 brew "you-get"
+# View, print, and comment on PDF documents
+cask "adobe-acrobat-reader"
 # Application launcher and productivity software
 cask "alfred"
 # Tools for building Android applications
@@ -75,6 +75,8 @@ cask "loom"
 cask "lulu"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Desktop virtualization software
+cask "parallels"
 # PDF compression tool
 cask "pdf-squeezer"
 # React client for Simplenote

@@ -1,97 +1,154 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-# Image manipulation library
-brew "jpeg"
-# Mozilla CA certificate store
+tap "homebrew/services"
 brew "ca-certificates"
-# Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
-# Distributed revision control system
-brew "git"
-# Alternative to top/htop
-brew "glances"
-# Open source relational database management system
-brew "mysql"
-# Port scanning utility for large networks
-brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
-# Development kit for the Java programming language
 brew "openjdk"
-# Pretty system information tool written in POSIX sh
+brew "apktool"
+brew "pango"
+brew "ffmpeg"
+brew "fish"
+brew "fisher"
+brew "gh"
+brew "git"
+brew "python@3.11"
+brew "glances"
+brew "gnupg"
+brew "gobject-introspection"
+brew "gradle"
+brew "helm"
+brew "jadx"
+brew "jpeg", link: true
+brew "kubernetes-cli"
+brew "lcov"
+brew "mas"
+brew "mysql", restart_service: true
+brew "nmap"
+brew "node"
 brew "pfetch"
-# Object-relational database system
-brew "postgresql"
-# Command-line interface for https://speedtest.net bandwidth tests
+brew "postgresql@14"
+brew "qemu"
 brew "speedtest-cli"
-# Display directories as trees (with optional color/HTML output)
+brew "sqlmap"
+brew "tmux"
 brew "tree"
-# Executes a program periodically, showing output fullscreen
 brew "watch"
-# Internet file retriever
 brew "wget"
-# Dumb downloader that scrapes the web
+brew "wireguard-tools"
 brew "you-get"
-# View, print, and comment on PDF documents
-cask "adobe-acrobat-reader"
-# Application launcher and productivity software
+cask "aerial"
 cask "alfred"
-# Tools for building Android applications
 cask "android-studio"
-# Menu bar icon organizer
 cask "bartender"
-# Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
-# Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
 cask "docker"
-# VPN client for secure internet access and private browsing
-cask "expressvpn"
-# Collaborative team software
 cask "figma"
-# Web browser
-cask "firefox"
-# Desktop client for GitHub repositories
 cask "github"
-# Client for the Google Drive storage service
 cask "google-drive"
-# Free and open-source media player
+cask "graphql-playground"
 cask "iina"
-# Java IDE by JetBrains
 cask "intellij-idea"
-# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Interface for reading and syncing eBooks
 cask "kindle"
-# Screen and video recording software
 cask "loom"
-# Open-source firewall to block unknown outgoing connections
 cask "lulu"
-# App to write, plan, collaborate, and get organized
+cask "maccy"
+cask "mysqlworkbench"
 cask "notion"
-# Desktop virtualization software
+cask "numi"
+cask "obsidian"
 cask "parallels"
-# PDF compression tool
 cask "pdf-squeezer"
-# React client for Simplenote
-cask "simplenote"
-# Team communication and collaboration software
+cask "pycharm"
 cask "slack"
-# Music streaming service
 cask "spotify"
-# System monitor for the menu bar
 cask "stats"
-# To-do list
+cask "surfshark"
+cask "telegram"
 cask "todoist"
-# Open-source code editor
 cask "visual-studio-code"
-# Free messaging and calling application
-cask "wechat"
-# Video communication and virtual meeting platform
+cask "vlc"
+cask "webstorm"
+cask "wireshark"
 cask "zoom"
+vscode "076923.python-image-preview"
+vscode "aaron-bond.better-comments"
+vscode "batisteo.vscode-django"
+vscode "burkeholland.simple-react-snippets"
+vscode "christian-kohler.path-intellisense"
+vscode "cschlosser.doxdocgen"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "deerawan.vscode-faker"
+vscode "donjayamanne.python-environment-manager"
+vscode "donjayamanne.python-extension-pack"
+vscode "DotJoshJohnson.xml"
+vscode "dracula-theme.theme-dracula"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "ecmel.vscode-html-css"
+vscode "enkia.tokyo-night"
+vscode "esbenp.prettier-vscode"
+vscode "firefox-devtools.vscode-firefox-debug"
+vscode "formulahendry.auto-rename-tag"
+vscode "formulahendry.code-runner"
+vscode "formulahendry.vscode-mysql"
+vscode "hoovercj.vscode-power-mode"
+vscode "humao.rest-client"
+vscode "jeff-hykin.better-cpp-syntax"
+vscode "johnpapa.winteriscoming"
+vscode "keroc.hex-fmt"
+vscode "KevinRose.vsc-python-indent"
+vscode "LeonardSSH.vscord"
+vscode "mathiasfrohlich.Kotlin"
+vscode "mechatroner.rainbow-csv"
+vscode "mikestead.dotenv"
+vscode "ms-azuretools.vscode-docker"
+vscode "MS-CEINTL.vscode-language-pack-zh-hans"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.remote-wsl"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.hexeditor"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.powershell"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.wordcount"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "njpwerner.autodocstring"
+vscode "octref.vetur"
+vscode "patbenatar.advanced-new-file"
+vscode "PKief.material-icon-theme"
+vscode "pranaygp.vscode-css-peek"
+vscode "raidou.calc"
+vscode "redhat.java"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.LiveServer"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "syler.sass-indented"
+vscode "tomoki1207.pdf"
+vscode "twxs.cmake"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "WallabyJs.quokka-vscode"
+vscode "wholroyd.jinja"
+vscode "wix.vscode-import-cost"
+vscode "yzhang.markdown-all-in-one"
+vscode "zh9528.file-size"

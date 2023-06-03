@@ -1,3 +1,3 @@
 # System Automation
 
-A list of handy macOS scripts and files.
+A list of handy macOS & Windows scripts and files.
